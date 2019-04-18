@@ -1,0 +1,47 @@
+{% block content %}
+  <html>
+    <script src="static/js/jquery.js"></script>
+    <script src="static/js/FileSaver.js"></script> 
+    <script src="static/js/ics.js"></script>
+
+    <section class="content-section">
+        <div class="container text-center">
+          ALL SESSIONS
+
+            <!-- for every listing in favorites  --> 
+            {% for session in sessions %}
+
+              <div class="row">
+
+                  <div class="col-sm-6 text-left">          
+                     <h4> Session title:  {{ session.title }}  </h4>
+                      <h4> Speaker:  {{ session.speaker }}  </h4>
+
+                      <!-- Save to calendar button --> 
+                      <button type="submit" class="btn btn-danger" onclick="saveToCalendar('{{ session.title }}', '{{ session.speaker }}', '{{ session.start_time }}', '{{ session.end_time }}')"> Save to calendar </button>
+
+                  </div> 
+              </div>
+
+            <!-- end for --> 
+            {% endfor %}
+
+
+      </div>
+    </section>
+
+    <script type="text/javascript">
+      function saveToCalendar(title, speaker, start_time, end_time) {
+        console.log(title);
+        var cal = ics();
+        cal.addEvent(title, speaker, 'Default', start_time, end_time);
+        cal.download('title');
+
+      }
+
+    </script>
+
+
+
+  </html>
+  {% endblock %}
