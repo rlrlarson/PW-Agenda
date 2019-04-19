@@ -18,7 +18,8 @@
                       <h4> Speaker:  {{ session.speaker }}  </h4>
 
                       <!-- Save to calendar button --> 
-                      <button type="submit" class="btn btn-danger" onclick="saveToCalendar('{{ session.title }}', '{{ session.speaker }}', '{{ session.start_time }}', '{{ session.end_time }}')"> Save to calendar </button>
+                      <button type="submit" onclick="saveToCalendar('{{ session.title }}', '{{ session.speaker }}', '{{ session.start_time }}', '{{ session.end_time }}')"> Save to calendar </button>
+
 
                   </div> 
               </div>
