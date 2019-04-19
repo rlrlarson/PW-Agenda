@@ -1,0 +1,129 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html{font: 16px 'open sans', sans serif;background-color:#F7F5F5}
+
+.flex-container {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    }
+
+.flex-container-nw {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+	align-items: center;
+    }
+
+.flex-item:nth-child(1) {
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+    }
+
+.flex-item:nth-child(2) {
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+    }
+
+.flex-item:nth-child(3) {
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+    }
+
+.session-card	{
+	width: 320px;
+	padding:16px;
+	margin-right:16px;
+	margin-bottom:16px;
+	border: 1px #CCC solid;
+	background-color: #FFFFFF;
+	border-radius: 8px;
+	
+}
+
+	.session-card span {
+		display:block;
+	}
+
+	.session-card input[type='radio'] {
+		float:left;
+}
+
+.session-type:before {
+	font-size: 0.8em;
+	font-weight: 700;
+	color: #FFF;
+	padding: 4px 8px;
+	border-radius: 12px;
+	text-transform: uppercase;
+}
+
+.session-type.keynote:before {
+	content: "Keynote";
+	background-color: #003BFF; 
+}
+
+.session-type.customer-case-study:before {
+	content: "Customer Case Study";
+	background-color: #719803; 
+}
+
+.session-type.customer-how-to:before {
+	content: "Customer How To";
+	background-color: #592C98; 
+}
+
+
+
+.session-card .title	{
+	font-size: 1.2em;
+	font-weight: 700;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
