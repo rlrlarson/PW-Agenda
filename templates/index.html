@@ -1,28 +1,40 @@
 {% block content %}
   <html>
-    <script src="static/js/jquery.js"></script>
-    <script src="static/js/FileSaver.js"></script> 
-    <script src="static/js/ics.js"></script>
+    <head>
+      <link rel="stylesheet" href="../static/css/main.css">
+      <script src="static/js/jquery.js"></script>
+      <script src="static/js/FileSaver.js"></script> 
+      <script src="static/js/ics.js"></script>
+    </head>
 
     <section class="content-section">
-        <div class="container text-center">
+        <div class="flex-container">
           ALL SESSIONS
 
             <!-- for every listing in favorites  --> 
             {% for session in sessions %}
 
-              <div class="row">
+              <div class="session-card flex-container-nw">
 
-                  <div class="col-sm-6 text-left">          
-                     <h4> Session title:  {{ session.title }}  </h4>
-                      <h4> Speaker:  {{ session.speaker }}  </h4>
+                <div style="margin-right:16px">
+                  <input type="radio" name="session1"/>
+                </div>
+                  <div>
+                    <span class="session-type keynote"></span>
+                    <span class="title">
+                      {{ session.title }}
+                    </span>
+                    <span class="description">
+                      {{ session.speaker }}
+                    </span>
+                  </div>
 
-                      <!-- Save to calendar button --> 
-                      <button type="submit" onclick="saveToCalendar('{{ session.title }}', '{{ session.speaker }}', '{{ session.start_time }}', '{{ session.end_time }}')"> Save to calendar </button>
+                  <!-- Save to calendar button --> 
+                  <button type="submit" onclick="saveToCalendar('{{ session.title }}', '{{ session.speaker }}', '{{ session.start_time }}', '{{ session.end_time }}')"> Save to calendar </button>
 
 
-                  </div> 
-              </div>
+              </div> 
+
 
             <!-- end for --> 
             {% endfor %}
