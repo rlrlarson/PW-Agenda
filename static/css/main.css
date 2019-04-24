@@ -1,7 +1,29 @@
 @charset "UTF-8";
 /* CSS Document */
 
-html{font: 16px 'open sans', sans serif;background-color:#F7F5F5}
+html{font: 16px 'open sans', sans serif;background-color:#FFFFFF;margin: 16px}
+
+.agenda-day	{
+	font-size: 1.2em;
+	font-weight: 600;
+	text-transform: uppercase;
+		
+}
+.time-slot-container {
+	background-color:#F7F5F5;
+	margin: 16px 0px;
+	padding: 16px;
+	padding-bottom: 0px;
+	border-radius: 8px;
+	
+}
+
+.time-display	{
+	float:left;
+	margin-right: 8px;
+	font-weight: 600;
+	max-width: 70px;
+}
 
 .flex-container {
     display: -ms-flexbox;
@@ -40,45 +62,8 @@ html{font: 16px 'open sans', sans serif;background-color:#F7F5F5}
 	align-items: center;
     }
 
-.flex-item:nth-child(1) {
-    -webkit-order: 0;
-    -ms-flex-order: 0;
-    order: 0;
-    -webkit-flex: 0 1 auto;
-    -ms-flex: 0 1 auto;
-    flex: 0 1 auto;
-    -webkit-align-self: auto;
-    -ms-flex-item-align: auto;
-    align-self: auto;
-    }
-
-.flex-item:nth-child(2) {
-    -webkit-order: 0;
-    -ms-flex-order: 0;
-    order: 0;
-    -webkit-flex: 0 1 auto;
-    -ms-flex: 0 1 auto;
-    flex: 0 1 auto;
-    -webkit-align-self: auto;
-    -ms-flex-item-align: auto;
-    align-self: auto;
-    }
-
-.flex-item:nth-child(3) {
-    -webkit-order: 0;
-    -ms-flex-order: 0;
-    order: 0;
-    -webkit-flex: 0 1 auto;
-    -ms-flex: 0 1 auto;
-    flex: 0 1 auto;
-    -webkit-align-self: auto;
-    -ms-flex-item-align: auto;
-    align-self: auto;
-    }
-
 .session-card	{
 	width: 320px;
-	padding:16px;
 	margin-right:16px;
 	margin-bottom:16px;
 	border: 1px #CCC solid;
@@ -93,6 +78,10 @@ html{font: 16px 'open sans', sans serif;background-color:#F7F5F5}
 
 	.session-card input[type='radio'] {
 		float:left;
+}
+
+.session-content {
+	padding: 16px;
 }
 
 .session-type:before {
@@ -127,3 +116,16 @@ html{font: 16px 'open sans', sans serif;background-color:#F7F5F5}
 	margin-top: 8px;
 	margin-bottom: 8px;
 }
+
+.session-radio {
+	align-self:stretch;
+	padding: 8px;
+	border-right: 1px #C3BEBE solid;
+	border-radius: 8px 0px 0px 8px;
+
+}
+
+	.radio-selected{
+		background-color: rgba(25,175,25,0.40);
+		border: 1px rgba(25,175,25,1.00) solid;
+	}
