@@ -4,17 +4,37 @@
 		<link rel="stylesheet" href="../static/css/main.css">
 		
 		<script>
+			
+			
+			
 			$(function() {
-				$('input[type=radio]').click(function () {
+				$('.session-radio').click(function () {
 					/*
 					var radioGroupName = $(this).attr('name');
 					console.log(radioGroupName);
 					*/
-
+					$(this).children('input').prop('checked', true);
 					$('input:not(:checked)').parent().removeClass("radio-selected");
 					$('input:checked').parent().addClass("radio-selected");
 				});
+				
+				$('.session-content').click(function(){
+					$('.peek-panel').animate({right:'0px'},250);
+				});
+				
+				$('.peek-panel').click(function(){
+					$(this).animate({right:'-336px'},200);
+				})
+				
+				$('.clear-selection').click(function(){	
+					var radioGroupName = $(this).attr('name');
+					$('input[name=' + radioGroupName + ']').prop('checked',false);
+					$('input:not(:checked)').parent().removeClass("radio-selected");
+				})
+
 			});
+			
+			
 			
 			
 			
@@ -28,6 +48,7 @@
 		<div class="time-slot-container">
 			<div class="time-display">
 				8:30 &ndash; 9:15am
+				<div class="clear-selection" name="session1">Clear</div>
 			</div>
 			
 			<div class="flex-container">
@@ -118,6 +139,7 @@
 		<div class="time-slot-container">
 			<div class="time-display">
 				9:30 &ndash; 10:15am
+				<div class="clear-selection" name="session2">Clear</div>
 			</div>
 			
 			<div class="flex-container">
@@ -170,6 +192,11 @@
 					</div>
 				</div>
 			</div>
+		</div>
+		
+		<div class="peek-panel">
+			Sidebar here<br/>
+			Click to close
 		</div>
 
 	</body>
