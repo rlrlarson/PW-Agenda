@@ -22,9 +22,13 @@ app.secret_key = "pwagenda"
 @app.route('/index')
 def index():
 	sessions = Session.query.all()
-	if 'username' in session:
+
+	# parse out all sets of sessions for each day, for each time
+
+	first_sessions_set = Session.query.filter_by(start_time='2019-06-02 08:30:00-04:00').all()
+ 	if 'username' in session:
 		session_user = User.query.filter_by(username=session['username']).first()
-		return render_template('index.html', title='All Sessions', username=session_user.username, sessions=sessions)
+		return render_template('index.html', title='All Sessions', username=session_user.username, sessions=sessions, firstgroup=first_sessions_set)
 	else:
 		return render_template('index.html', title='All Sessions', sessions=sessions)
 

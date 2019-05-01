@@ -86,8 +86,11 @@
     <span class="agenda-day">
       Sunday, June 2
     </span>
+
+    {% set start_time = '2019-06-02 08:30:00-04:00' %}
+
     
-    {% for session in sessions %}
+    {% for session in firstgroup %}
 
     
     <div class="time-slot-container">
@@ -117,7 +120,9 @@
 
       </div>
     </div>
-            
+
+    {% endfor %}
+          
 <!-- SECOND TIME SLOT -->   
     <div class="time-slot-container">
       <div class="time-display">
@@ -147,10 +152,6 @@
       </div>
     </div>
     
-
-
-    {% endfor %}
-
 
     <div class="peek-panel">
       Sidebar here<br/>
