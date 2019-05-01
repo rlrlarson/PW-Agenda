@@ -5,7 +5,164 @@
       <script src="static/js/jquery.js"></script>
       <script src="static/js/FileSaver.js"></script> 
       <script src="static/js/ics.js"></script>
+
+      <script>
+        
+        
+        
+        $(function() {
+          $('.session-radio').click(function () {
+            /*
+            var radioGroupName = $(this).attr('name');
+            console.log(radioGroupName);
+            */
+            $(this).children('input').prop('checked', true);
+            $('input:not(:checked)').parent().removeClass("radio-selected");
+            $('input:checked').parent().addClass("radio-selected");
+          });
+          
+          $('.session-content').click(function(){
+            $('.peek-panel').animate({right:'0px'},250);
+          });
+          
+          $('.peek-panel').click(function(){
+            $(this).animate({right:'-336px'},200);
+          })
+          
+          $('.clear-selection').click(function(){ 
+            var radioGroupName = $(this).attr('name');
+            $('input[name=' + radioGroupName + ']').prop('checked',false);
+            $('input:not(:checked)').parent().removeClass("radio-selected");
+          })
+
+        });
+        
+
+      </script>
+
+
+
     </head>
+
+
+    <!-- if user in session  -->
+    {% if username is defined %}
+    <div class="btn-group mr-2" role="group" aria-label="Second group">
+      Welcome, {{ username }}
+
+      <!-- Logout button -->
+      <form action="/logout" method="POST">
+        <button type="submit" class="btn btn-warning"> Log out </button>
+      </form>
+
+    </div>
+   
+    <!-- else  -->
+    {% else %}
+
+    <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+    <div class="btn-group mr-2" role="group" aria-label="First group">
+
+      <!-- Login button  -->
+      <form action="/login" method="GET">
+        <button type="submit" class="btn btn-primary"> Log in </button>
+      </form>
+
+    </div> 
+    <div class="btn-group mr-2" role="group" aria-label="Second group">
+       
+      <!-- Signup button  -->
+      <form action="/signup" method="GET">
+        <button type="submit" class="btn btn-info"> Sign up </button>
+      </form>
+
+    </div>  
+    </div>
+    
+    <!-- end if  -->
+    {% endif %}
+
+
+    <span class="agenda-day">
+      Sunday, June 2
+    </span>
+    
+    {% for session in sessions %}
+
+    
+    <div class="time-slot-container">
+      <div class="time-display">
+        8:30 &ndash; 9:15am
+        <div class="clear-selection" name="session1">Clear</div>
+      </div>
+      
+      <div class="flex-container">
+        <div class="session-card flex-container-nw">
+          
+          <div class="session-radio">
+              <input type="radio" name="session1"/>
+          </div>
+
+          <div class="session-content">
+            <span class="session-type keynote"></span>
+            <span class="title">
+              {{ session.title }}
+            </span>
+            <span class="description">
+              {{ session.speaker }}
+            </span>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+            
+<!-- SECOND TIME SLOT -->   
+    <div class="time-slot-container">
+      <div class="time-display">
+        9:30 &ndash; 10:15am
+        <div class="clear-selection" name="session2">Clear</div>
+      </div>
+      
+      <div class="flex-container">
+        <div class="session-card flex-container-nw">
+          
+          <div class="session-radio">
+              <input type="radio" name="session1"/>
+          </div>
+
+          <div class="session-content">
+            <span class="session-type keynote"></span>
+            <span class="title">
+              {{ session.title }}
+            </span>
+            <span class="description">
+              {{ session.speaker }}
+            </span>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+    
+
+
+    {% endfor %}
+
+
+    <div class="peek-panel">
+      Sidebar here<br/>
+      Click to close
+    </div>
+
+
+
+
+
+
+
 
     <section class="content-section">
         <div class="flex-container">
