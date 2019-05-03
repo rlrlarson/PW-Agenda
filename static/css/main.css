@@ -90,7 +90,6 @@ h1{font-size:1.4em;margin:0;padding:0}
 	border: 1px #CCC solid;
 	background-color: #FFFFFF;
 	border-radius: 8px;
-
 	
 }
 
@@ -114,17 +113,6 @@ h1{font-size:1.4em;margin:0;padding:0}
 	border-radius: 12px;
 	text-transform: uppercase;
 }
-
-.session-type.Keynote:before {
-	content: "Keynote";
-	background-color: #003BFF; 
-}
-
-.session-type.Training:before {
-	content: "Training";
-	background-color: purple; 
-}
-
 .session-type.customercasestudy:before {
 	content: "Customer Case Study";
 	background-color: #719803; 
@@ -135,7 +123,55 @@ h1{font-size:1.4em;margin:0;padding:0}
 	background-color: #592C98; 
 }
 
+.session-type.developerday:before {
+	content: "Developer Day";
+	background-color: #E10B81; 
+}
 
+.session-type.keynote:before {
+	content: "Keynote";
+	background-color: #003BFF; 
+}
+
+.session-type.industrynetworkingreceiptions:before {
+	content: "Industry Networking Receptions";
+	background-color: #006624;
+}
+
+.session-type.meals:before {
+	content: "Meals";
+	background-color: #732800; 
+}
+
+.session-type.meetup:before {
+	content: "Meet Up";
+	background-color: #113DA6; 
+}
+
+.session-type.productspotlight:before {
+	content: "Product Spotlight";
+	background-color: #20AA50; 
+}
+
+.session-type.reception:before {
+	content: "Reception";
+	background-color: #7CBFBF; 
+}
+
+.session-type.sparktalk:before {
+	content: "Spark TalK";
+	background-color: #FD6000; 
+}
+
+.session-type.sponsored:before {
+	content: "Sponsored";
+	background-color: #585B73; 
+}
+
+.session-type.training:before {
+	content: "Training";
+	background-color: #0D0E1A; 
+}
 
 .session-card .title	{
 	font-size: 1.1em;
