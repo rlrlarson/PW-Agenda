@@ -1,7 +1,28 @@
 @charset "UTF-8";
 /* CSS Document */
 
-html{font: 16px 'open sans', sans serif;background-color:#FFFFFF;margin: 16px}
+html{font: 16px 'open sans', sans serif;background-color:#E8EAEF;margin: 0px}
+a{color: #295ED9}
+body {margin-top: 80px}
+h1{font-size:1.4em;margin:0;padding:0}
+
+#header	{
+	position:fixed;top: 0; width:100%;box-sizing:border-box;padding:14px;background-color:#FFFFFF;box-shadow: 0px 0px 6px #CCC;display:flex;justify-content:space-between;
+}
+.primary-button{
+	background-color: #295ED9;
+	padding: 7px 14px;
+	border-radius:16px;
+	color: #FFFFFF;
+	font-weight: 700;
+	cursor: pointer;
+}
+
+.primary-button:hover{
+	background-color: #113DA6;
+	box-shadow: 0px 3px 3px #CCCCCC;
+	
+}
 
 .agenda-day	{
 	font-size: 1.2em;
@@ -153,4 +174,38 @@ html{font: 16px 'open sans', sans serif;background-color:#FFFFFF;margin: 16px}
 
 .clear-selection:hover {
 	text-decoration: underline;
+}
+
+/* LIST */
+
+.list-table {
+	width:800px;
+	margin: 14px auto;
+	background-color: #FFFFFF;
+	padding: 14px;
+}
+
+.list-table table{
+	width: 100%;
+}
+
+.list-table table th {
+	text-align: left;
+	margin: 0px;
+	padding: 7px;
+	background-color: #F5F6FA;
+	border-right: 2px #FFFFFF solid;
+}
+
+.list-table table td {
+	padding: 7px;
+	border-bottom: 1px #CACDD6 solid;	
+}
+
+.list-table table th:nth-child(3), .list-table table td:nth-child(3){
+	text-align: right;
+}
+
+.list-table table tr:last-child td {
+	border-bottom: 0px;
 }
