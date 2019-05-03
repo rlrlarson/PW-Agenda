@@ -1,0 +1,136 @@
+type,title,start_time,end_time,location,status,is_panel,led_by
+Training,Pega Platform Overview,6/2/19 9:00 AM,6/2/19 12:30 PM,Chairman's Ballroom 361,Approved,,Pega
+Training,Pega Marketing Overview,6/2/19 9:00 AM,6/2/19 12:30 PM,"Conference Center, Room 351",Approved,,Pega
+Training,Pega Exam Test Prep – Business and System Architects,6/2/19 9:00 AM,6/2/19 12:30 PM,"Conference Center, Room 353",Approved,,Pega
+Training,Pega Customer Decision Hub Overview,6/2/19 9:00 AM,6/2/19 12:30 PM,"Conference Center, Room 350",Approved,,
+Training,Pega Client Lifecycle Management Overview,6/2/19 9:00 AM,6/2/19 12:30 PM,"Conference Center, Room 352",Approved,,Pega
+Training,Developing a Minimum Loveable Product (MLP) with App Studio,6/2/19 9:00 AM,6/2/19 12:30 PM,"Conference Center, Room 354",Approved,,Pega
+Training,Pega’s Project Methodology,6/2/19 1:30 PM,6/2/19 5:00 PM,"Conference Center, Room 354",Approved,,
+Training,Pega Platform Overview,6/2/19 1:30 PM,6/2/19 5:00 PM,Chairman's Ballroom 361,Approved,,Pega
+Training,Pega Customer Service Overview,6/2/19 1:30 PM,6/2/19 5:00 PM,"Conference Center, Room 351",Approved,,Pega
+Training,Pega Customer Decision Hub Overview,6/2/19 1:30 PM,6/2/19 5:00 PM,"Conference Center, Room 350",Approved,,Pega
+Training,Pega Client Lifecycle Management Overview,6/2/19 1:30 PM,6/2/19 5:00 PM,"Conference Center, Room 352",Approved,,Pega
+Training,Overview of Using Pega Robotic Automations,6/2/19 1:30 PM,6/2/19 5:00 PM,"Conference Center, Room 353",Approved,,Pega
+Training,Partner Exclusive: Best Practices in Front End Development and New Data Visualization Capabilities,6/2/19 2:00 PM,6/2/19 4:00 PM,Chairman's Ballroom 368,Approved,,Pega
+Industry Networking Receptions,"Manufacturing, Auto, & High Tech",6/2/19 4:00 PM,6/2/19 5:30 PM,Premier Ballroom 315,Approved,No,
+Industry Networking Receptions,Insurance Reception,6/2/19 4:00 PM,6/2/19 5:30 PM,Premier Ballroom 317,Approved,No,
+Industry Networking Receptions,Healthcare & Life Sciences Reception,6/2/19 4:00 PM,6/2/19 5:30 PM,Chairman's Ballroom 359,Approved,No,
+Industry Networking Receptions,Government Reception,6/2/19 4:00 PM,6/2/19 5:30 PM,Chairman's Ballroom 355,Approved,No,
+Industry Networking Receptions,Financial Services Reception,6/2/19 4:00 PM,6/2/19 5:30 PM,Premier Ballroom 316,Approved,No,
+Industry Networking Receptions,"Communications, Media, and Consumer Brands (Internet,Transportation,Utilities,Hospitality) Reception",6/2/19 4:00 PM,6/2/19 5:30 PM,Chairman's Ballroom 357,Approved,No,
+Reception,Welcome Reception and Dinner,6/2/19 7:00 PM,6/2/19 9:00 PM,Grand Pool (Back Up: Grand Ballroom),Approved,,Pega
+Meals,Conference Breakfast,6/3/19 7:00 AM,6/3/19 8:15 AM,Grand Pool,Approved,,Pega
+Meals,Conference Breakfast,6/3/19 7:00 AM,6/3/19 8:15 AM,Grand Pool,Approved,,
+Keynote,"The Heart of Digital Transformation: How Great Technology, the Right Approach, and Empowered People Deliver Results",6/3/19 8:30 AM,6/3/19 9:00 AM,Grand Garden Arena,Approved,,
+Keynote,"Up, Up, and Away: Unleashing the Superpowers of Pega Infinity",6/3/19 9:40 AM,6/3/19 10:25 AM,Grand Garden Arena,Approved,,
+Keynote,Girls in Tech: Empowering the next generation of female leaders,6/3/19 10:30 AM,6/3/19 10:45 AM,Grand Garden Arena,Approved,,
+Customer How To,The Transformational Journey of Pega at Anthem,6/3/19 11:45 AM,6/3/19 12:30 PM,Chairman's  Ballroom 361,Approved,No,Client
+Spark Talk,The Insiders View on What It Takes for a Successful Digital Transformation in the Contact Center,6/3/19 11:45 AM,6/3/19 12:30 PM,Premier Ballroom 317,Approved,Yes,Client
+Spark Talk,The Future Belongs To Companies That Embrace Digital Transformation,6/3/19 11:45 AM,6/3/19 12:30 PM,Chairman's Ballroom 355,Approved,No,Pega
+Customer Case Study,Sun Life Financial: ROI and change management within digital process automation journey,6/3/19 11:45 AM,6/3/19 12:30 PM,Premier Ballroom 315,Approved,No,Client
+Spark Talk,Rise of The Citizen Developer: The Role of Low-Code Platforms,6/3/19 11:45 AM,6/3/19 12:30 PM,Premier Ballroom 316,Approved,No,Pega
+Spark Talk,Pega 101: Overview of Pega's Vision and Technologies,6/3/19 11:45 AM,6/3/19 12:30 PM,Chairman's  Ballroom 370,Approved,Yes,Pega
+Product Spotlight,Introducing Cosmos Work: A new UX Framework,6/3/19 11:45 AM,6/3/19 12:30 PM,Chairman's Ballroom 368,Approved,No,Pega
+Customer Case Study,BT’s Journey to World-Class Lifecycle Management & Omni-Channel Decisioning,6/3/19 11:45 AM,6/3/19 12:30 PM,Chairman's Ballroom 357,Approved,No,Pega
+Customer Case Study,Air France Cares. Elevating Loyalty and the Passenger Experience at a Top 5 Global Airline,6/3/19 11:45 AM,6/3/19 12:30 PM,Chairman's  Ballroom 359,Approved,No,Client
+Sponsored,15 Days to 15 Minutes: How CYBG Revolutionized Their Customer Onboarding Process,6/3/19 11:45 AM,6/3/19 12:30 PM,Premier Ballroom 319,Approved,No,Partner
+Meet Up,Smart Investigate Meet Up,6/3/19 12:00 PM,6/3/19 2:00 PM,Grand Ballroom,Approved,,Pega
+Meet Up,Open Banking Meet Up: How Will You Prepare?,6/3/19 12:00 PM,6/3/19 2:00 PM,Grand Ballroom,Approved,,Pega
+Meet Up,Insurance Industry Meet Up: Proactive Customer Service,6/3/19 12:00 PM,6/3/19 2:00 PM,Grand Ballroom,Approved,,Pega
+Meet Up,Insurance Industry Meet Up: Personalized Customer Engagement,6/3/19 12:00 PM,6/3/19 2:00 PM,Grand Ballroom,Approved,,Pega
+Meet Up,Healthcare Industry Meet Up: Payers,6/3/19 12:00 PM,6/3/19 2:00 PM,Grand Ballroom,Approved,,Pega
+Meet Up,Global Utilities Meet Up,6/3/19 12:00 PM,6/3/19 2:00 PM,Grand Ballroom,Approved,,Pega
+Meet Up,Design Thinking to Jump Start Innovation Meet Up,6/3/19 12:00 PM,6/3/19 2:00 PM,Grand Ballroom,Approved,,Pega
+Meet Up,Credit and Lending Meet Up,6/3/19 12:00 PM,6/3/19 2:00 PM,Grand Ballroom,Approved,,Pega
+Meals,Conference Lunch & Meet Ups,6/3/19 12:00 PM,6/3/19 2:00 PM,Grand Ballroom,Approved,,Pega
+Meet Up,COE Networking Meet Up,6/3/19 12:00 PM,6/3/19 2:00 PM,Grand Ballroom,Approved,,Pega
+Meet Up,Client Lifecycle Management and KYC Meet Up,6/3/19 12:00 PM,6/3/19 2:00 PM,Grand Ballroom,Approved,,Pega
+Customer Case Study,Siemens and Pega on the way to global end-to-end digitization,6/3/19 1:30 PM,6/3/19 2:15 PM,Chairman's  Ballroom 359,Approved,No,Client
+Spark Talk,Pega Driven Automated Regression and Performance analysis for each rule,6/3/19 1:30 PM,6/3/19 2:15 PM,Premier Ballroom 317,Approved,Yes,Client
+Spark Talk,"IT, Business, and Bots in Perfect Harmony",6/3/19 1:30 PM,6/3/19 2:15 PM,Chairman's Ballroom 368,Approved,Yes,Pega
+Customer Case Study,How Scotiabank is modernizing their Global Technology Platform with Pega Infinity on the Cloud,6/3/19 1:30 PM,6/3/19 2:15 PM,Premier Ballroom 316,Approved,No,Client
+Customer Case Study,Groundbreaking Digital Transformation in Dutch public sector: One shared service center for many Government Agencies,6/3/19 1:30 PM,6/3/19 2:15 PM,Chairman's Ballroom 355,Approved,No,Client
+Customer Case Study,Digital Transformation at Scale - Liberty Global explains how they are Transforming in multiple regions at the same time,6/3/19 1:30 PM,6/3/19 2:15 PM,Premier Ballroom 315,Approved,No,Client
+Spark Talk,Digital Process Automation (DPA) Explained: The Secret Weapon for Digital Heroes,6/3/19 1:30 PM,6/3/19 2:15 PM,Chairman's  Ballroom 370,Approved,No,Pega
+Customer Case Study,"A Payer Evolution: How DAK Went From Product-Focused, To Member-Centric",6/3/19 1:30 PM,6/3/19 2:15 PM,Chairman's  Ballroom 361,Approved,No,Client
+Customer Case Study,Achmea: How to win your customers' hearts using AI with personalized journeys across all your channels,6/3/19 1:30 PM,6/3/19 2:15 PM,Chairman's Ballroom 357,Approved,No,Client
+Spark Talk,Achieving Digital Customer Service Transformation,6/3/19 1:30 PM,6/3/19 2:15 PM,Premier Ballroom 319,Approved,No,Pega
+Spark Talk,Workforce Intelligence: A Compass for the Employee Desktop,6/3/19 2:30 PM,6/3/19 3:15 PM,Premier Ballroom 317,Approved,Yes,Pega
+Spark Talk,"Using Decisioning to Power Always-On, 1:1 Customer Engagement",6/3/19 2:30 PM,6/3/19 3:15 PM,Chairman's Ballroom 368,Approved,Yes,Pega
+Sponsored,Sprint’s Journey from List-Based to Trigger-Based Marketing,6/3/19 2:30 PM,6/3/19 3:15 PM,Premier Ballroom 319,Approved,No,Partner
+Customer Case Study,Product Modernization Delivers Enterprise Value at HAP,6/3/19 2:30 PM,6/3/19 3:15 PM,Chairman's Ballroom 355,Approved,No,Client
+Customer Case Study,Pragmatic Digital Transformation on a Shoestring Budget in just 12 Weeks,6/3/19 2:30 PM,6/3/19 3:15 PM,Premier Ballroom 315,Approved,No,Client
+Product Spotlight,Let your data speak to you - Advanced Visual Analytics at Scale,6/3/19 2:30 PM,6/3/19 3:15 PM,Chairman's  Ballroom 370,Approved,,Pega
+Customer How To,ING: How to Take Over the World,6/3/19 2:30 PM,6/3/19 3:15 PM,Premier Ballroom 316,Approved,No,Client
+Customer Case Study,How GE Healthcare is Revolutionizing Order Management,6/3/19 2:30 PM,6/3/19 3:15 PM,Chairman's Ballroom 357,Approved,No,Client
+Sponsored,Driving Continuous Business Value Through BOTs: How BCBS NC Realized $10M in Business Value by Leveraging Pega Robotics,6/3/19 2:30 PM,6/3/19 3:15 PM,Chairman's  Ballroom 361,Approved,No,Partner
+Spark Talk,Cloud maturity and behavioral patterns in a post apocalyptic world,6/3/19 2:30 PM,6/3/19 3:15 PM,Chairman's  Ballroom 359,Approved,No,Pega
+Spark Talk,"What’s Next: Vision and Roadmap for DevOps, No-code development, Mobility, Cloud, Security, and the Pega Platform",6/3/19 3:30 PM,6/3/19 4:15 PM,Chairman's Ballroom 368,Approved,Yes,Pega
+Customer Case Study,"VIVAT Insurances: Transforming from a traditional to a digital, customer centric, future-proofed Insurer",6/3/19 3:30 PM,6/3/19 4:15 PM,Premier Ballroom 315,Approved,No,Client
+Spark Talk,Towards the AI-Driven Enterprise,6/3/19 3:30 PM,6/3/19 4:15 PM,Chairman's Ballroom 355,Approved,No,Pega
+Customer Case Study,Supporting the Intelligent Customer and Dealer Journey Through Next Best Action,6/3/19 3:30 PM,6/3/19 4:15 PM,Chairman's  Ballroom 359,Approved,No,Client
+Sponsored,"Stop Listening to Your Heart, Let Workforce Intelligence Guide You",6/3/19 3:30 PM,6/3/19 4:15 PM,Premier Ballroom 319 Mon,Approved,No,Partner
+Customer Case Study,Order Automation Goes Global at Vodafone Business,6/3/19 3:30 PM,6/3/19 4:15 PM,Chairman's Ballroom 357,Approved,No,Pega
+Customer How To,How consumerism is affecting customer engagement and digital transformation across industries,6/3/19 3:30 PM,6/3/19 4:15 PM,Premier Ballroom 317,Approved,Yes,Client
+Customer Case Study,Cisco Customer Service - from dynamic customer engagement to digital delivery through Pega Customer Service,6/3/19 3:30 PM,6/3/19 4:15 PM,Chairman's  Ballroom 370,Approved,No,Client
+Spark Talk,Build Better Bots: Effective & efficient AI in the Enterprise,6/3/19 3:30 PM,6/3/19 4:15 PM,Chairman's  Ballroom 361,Approved,No,Pega
+Customer Case Study,Automating the Enterprise - National Australia Bank's unique take on Case Management,6/3/19 3:30 PM,6/3/19 4:15 PM,Premier Ballroom 316,Approved,No,Client
+Reception,Customer Appreciation Event,6/3/19 7:00 PM,6/3/19 10:00 PM,Grand Garden Arena,Approved,,Pega
+Meals,Conference Breakfast,6/4/19 7:00 AM,6/4/19 8:45 AM,Grand Pool,Approved,,Pega
+Keynote,Designed for Digital: How Companies Transform for Sustained Success,6/4/19 9:10 AM,6/4/19 9:40 AM,Grand Garden Arena,Approved,,
+Keynote,How About Some Empathy? Empathetic AI—The Evolution of AI for Business,6/4/19 9:45 AM,6/4/19 10:15 AM,Grand Garden Arena,Approved,,
+Keynote,Moving Beyond Personalization to Deliver 1:1 Engagement at Scale,6/4/19 10:20 AM,6/4/19 10:50 AM,Grand Garden Arena,Approved,,
+Sponsored,The Post-Digital Era: A Discussion with Leaders Who Are Building the Next Competitive Edge,6/4/19 11:45 AM,6/4/19 12:30 PM,Premier Ballroom 317,Approved,Yes,Partner
+Sponsored,Robotics vs Intelligent Automation – Cautionary Tales and Axioms,6/4/19 11:45 AM,6/4/19 12:30 PM,Premier Ballroom 319 Tues,Approved,No,Partner
+Customer Case Study,Pega helps Google's Automated Network Capacity Builds on Google Cloud Platform,6/4/19 11:45 AM,6/4/19 12:30 PM,Chairman's  Ballroom 368,Approved,No,Client
+Spark Talk,Jump-Starting Next-Best-Action Excellence In Your Enterprise,6/4/19 11:45 AM,6/4/19 12:30 PM,Chairman's  Ballroom 370,Approved,No,Pega
+Customer Case Study,Hybrid Agile Delivery Methodology - How Pfizer Meets Quality Document Compliance in a Highly Regulated Environment,6/4/19 11:45 AM,6/4/19 12:30 PM,Premier Ballroom 315,Approved,No,Client
+Customer Case Study,How Cox Communications Glues Business and Technology Together,6/4/19 11:45 AM,6/4/19 12:30 PM,Premier Ballroom 316,Approved,No,Client
+Customer Case Study,Fixed Right First Time: Nissan’s first steps in automating diagnostic next-best-actions,6/4/19 11:45 AM,6/4/19 12:30 PM,Chairman's Ballroom 359,Approved,No,Client
+Spark Talk,Driving Global Digital Transformation of Client Lifecycle Management: Onboarding through to KYC,6/4/19 11:45 AM,6/4/19 12:30 PM,Chairman's  Ballroom 361,Approved,Yes,Pega
+Customer Case Study,Botman vs. Super Agents. The Rise of a New Contact Centre,6/4/19 11:45 AM,6/4/19 12:30 PM,Chairman's  Ballroom 357,Approved,No,Client
+Customer Case Study,Air Force Research Laboratory To Improve Warfighter Support with Innovative No-Code Modernization,6/4/19 11:45 AM,6/4/19 12:30 PM,Chairman's Ballroom 355,Approved,No,Client
+Meet Up,Travel and Transportation Industries Meet Up,6/4/19 12:00 PM,6/4/19 2:00 PM,Grand Ballroom,Approved,,Pega
+Meet Up,Smart Dispute Meet Up,6/4/19 12:00 PM,6/4/19 2:00 PM,Grand Ballroom,Approved,,Pega
+Meet Up,Preemptive Collections Meet Up: Get Ahead of Your Delinquencies,6/4/19 12:00 PM,6/4/19 2:00 PM,Grand Ballroom,Approved,,
+Meet Up,LIfe Sciences Industry Meet Up: Digital Process Automation,6/4/19 12:00 PM,6/4/19 2:00 PM,Grand Ballroom,Approved,,Pega
+Meet Up,Journey Centric Project Methodology Meet Up,6/4/19 12:00 PM,6/4/19 2:00 PM,Grand Ballroom,Approved,,Pega
+Meet Up,Insurance Industry Meet Up: Real Digital Transformation Through Process Automation,6/4/19 12:00 PM,6/4/19 2:00 PM,Grand Ballroom,Approved,,Pega
+Meet Up,Healthcare Provider Meet Up: Personalized Patient Journey,6/4/19 12:00 PM,6/4/19 2:00 PM,Grand Ballroom,Approved,,Pega
+Meet Up,Healthcare Benefit Modernization Meet Up,6/4/19 12:00 PM,6/4/19 2:00 PM,Grand Ballroom,Approved,,
+Meals,Conference Lunch & Meet Ups,6/4/19 12:00 PM,6/4/19 2:00 PM,Grand Ballroom,Approved,,Pega
+Meet Up,1:1 Customer Engagement Champions Meet Up,6/4/19 12:00 PM,6/4/19 2:00 PM,Grand Ballroom,Approved,,Pega
+Spark Talk,The Future of Life: Engagement and Experience at Hyperspeed,6/4/19 1:30 PM,6/4/19 2:15 PM,Premier Ballroom 315,Approved,No,Pega
+Spark Talk,The 36 Sexiest Use-Cases For Pega AI & Decisioning,6/4/19 1:30 PM,6/4/19 2:15 PM,Chairman's  Ballroom 370,Approved,No,Pega
+Sponsored,TCS : Worldpay - A Digital Transformation Journey to Accelerate and Automate Dispute Processing,6/4/19 1:30 PM,6/4/19 2:15 PM,Chairman's Ballroom 355 Tues,Approved,No,Partner
+Sponsored,Reimagining Insurance Digital Transformation,6/4/19 1:30 PM,6/4/19 2:15 PM,Premier Ballroom 317 Tues,Approved,No,Partner
+Sponsored,Navigate Your Next with Intelligent Experience Driven Digital Platform,6/4/19 1:30 PM,6/4/19 2:15 PM,Chairman's Ballroom 359,Approved,No,Partner
+Customer Case Study,Members First: How Anthem streamlined agent tasks to revolutionize workforce and member experience,6/4/19 1:30 PM,6/4/19 2:15 PM,Chairman's  Ballroom 361,Approved,No,Client
+Spark Talk,Low-code Innovation in the Enterprise,6/4/19 1:30 PM,6/4/19 2:15 PM,Chairman's  Ballroom 368,Approved,Yes,Pega
+Customer Case Study,How Pega is powering business transformation at CNO Financial Group,6/4/19 1:30 PM,6/4/19 2:15 PM,Premier Ballroom 319,Approved,No,Client
+Product Spotlight,Don't Panic! The Troubleshooters Guide to the Service Galaxy is Here!,6/4/19 1:30 PM,6/4/19 2:15 PM,Premier Ballroom 316,Approved,No,Pega
+Customer Case Study,Deutsche Telekom's Digital Transformation Story for Multi-Shared Services,6/4/19 1:30 PM,6/4/19 2:15 PM,Chairman's  Ballroom 357,Approved,No,Client
+Sponsored,"Vision, Journey and Lessons Learned for Transforming Fraud Case Management at Barclays",6/4/19 2:30 PM,6/4/19 3:15 PM,Premier Ballroom 315,Approved,No,Partner
+Customer Case Study,Verizon: Unlocking Customer Centricity Through Next Best Experience,6/4/19 2:30 PM,6/4/19 3:15 PM,Chairman's Ballroom 359,Approved,No,Client
+Customer Case Study,Unifying the Digital Experience at HSBC Australia,6/4/19 2:30 PM,6/4/19 3:15 PM,Premier Ballroom 316,Approved,No,Client
+Spark Talk,The Humanization of CX in an Era of AI,6/4/19 2:30 PM,6/4/19 3:15 PM,Chairman's  Ballroom 357,Approved,No,Client
+Spark Talk,Take control of your Digital Transformation through a COE,6/4/19 2:30 PM,6/4/19 3:15 PM,Chairman's  Ballroom 368,Approved,Yes,Pega
+Customer Case Study,Simplifying and Modernising our Business with Pega,6/4/19 2:30 PM,6/4/19 3:15 PM,Premier Ballroom 319,Approved,No,Client
+Spark Talk,Should My Bots Be Smarter?,6/4/19 2:30 PM,6/4/19 3:15 PM,Chairman's  Ballroom 370,Approved,No,Pega
+Customer Case Study,Optum's solution to simplify license and certification for medical professionals,6/4/19 2:30 PM,6/4/19 3:15 PM,Chairman's  Ballroom 361,Approved,No,Client
+Customer Case Study,From Zero to Infinity - Design Thinking at Motor Insurers' Bureau,6/4/19 2:30 PM,6/4/19 3:15 PM,Chairman's Ballroom 355,Approved,No,Client
+Customer Case Study,Driving Quality through Toyota's Digital Transformation,6/4/19 2:30 PM,6/4/19 3:15 PM,Premier Ballroom 317,Approved,No,Client
+Product Spotlight,Workforce Intelligence: Putting Desktop Insights to Work,6/4/19 3:30 PM,6/4/19 4:15 PM,Premier Ballroom 315,Approved,No,Pega
+Spark Talk,"What’s Next: Vision and Roadmap for AI, Robotic Automation, and Customer Engagement Applications",6/4/19 3:30 PM,6/4/19 4:15 PM,Chairman's  Ballroom 368,Approved,Yes,Pega
+Customer Case Study,Unipol's innovative omnichannel gift card product disrupts Italian insurance in <2 months. Only achievable through Pega!,6/4/19 3:30 PM,6/4/19 4:15 PM,Chairman's Ballroom 355,Approved,No,Client
+Customer Case Study,Swedbank: Engaging our customers in an omni-channel world,6/4/19 3:30 PM,6/4/19 4:15 PM,Premier Ballroom 316,Approved,No,Client
+Customer Case Study,Optus - Increasing Customer Satisfaction whilst Reducing Cost to Serve with Digital Case Management,6/4/19 3:30 PM,6/4/19 4:15 PM,Premier Ballroom 317,Approved,No,Client
+Customer Case Study,"Innovation@Scale - Highmark's framework for de-risking innovation, building great products and transforming healthcare",6/4/19 3:30 PM,6/4/19 4:15 PM,Chairman's Ballroom 359,Approved,No,Client
+Customer Case Study,How Quad built upon best practices to transform the mindset of our users,6/4/19 3:30 PM,6/4/19 4:15 PM,Chairman's  Ballroom 357,Approved,No,Client
+Customer How To,How Paypal reduced time to market utilizing modular code and Pega’s incremental deployments.,6/4/19 3:30 PM,6/4/19 4:15 PM,Premier Ballroom 319,Approved,No,Client
+Product Spotlight,Connecting and Integrating with Pega,6/4/19 3:30 PM,6/4/19 4:15 PM,Chairman's  Ballroom 370,Approved,No,Pega
+Spark Talk,Accelerating your DX journey with design thinking and innovation sprints,6/4/19 3:30 PM,6/4/19 4:15 PM,Chairman's  Ballroom 361,Approved,No,Pega
+Developer Day,Developer Day Track: Optimizing decision strategies,6/5/19 8:30 AM,6/5/19 3:00 PM,Chairman's Ballroom 357,Approved,No,Pega
+Developer Day,Developer Day Track: Mobile app development,6/5/19 8:30 AM,6/5/19 3:00 PM,Chairman's Ballroom 359,Approved,No,Pega
+Developer Day,Developer Day Track: Designing end-to-end automations with RPA,6/5/19 8:30 AM,6/5/19 3:00 PM,Chairman's Ballroom 355,Approved,No,Pega
+Developer Day,Developer Day Track: Achieving front-end excellence,6/5/19 8:30 AM,6/5/19 3:00 PM,Chairman's Ballroom 361,Approved,No,Pega

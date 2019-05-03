@@ -69,6 +69,7 @@ html{font: 16px 'open sans', sans serif;background-color:#FFFFFF;margin: 16px}
 	border: 1px #CCC solid;
 	background-color: #FFFFFF;
 	border-radius: 8px;
+
 	
 }
 
@@ -93,17 +94,22 @@ html{font: 16px 'open sans', sans serif;background-color:#FFFFFF;margin: 16px}
 	text-transform: uppercase;
 }
 
-.session-type.keynote:before {
+.session-type.Keynote:before {
 	content: "Keynote";
 	background-color: #003BFF; 
 }
 
-.session-type.customer-case-study:before {
+.session-type.Training:before {
+	content: "Training";
+	background-color: purple; 
+}
+
+.session-type.customercasestudy:before {
 	content: "Customer Case Study";
 	background-color: #719803; 
 }
 
-.session-type.customer-how-to:before {
+.session-type.customerhowto:before {
 	content: "Customer How To";
 	background-color: #592C98; 
 }

@@ -1,5 +1,5 @@
 from flask import Flask, flash, render_template, request, url_for, redirect, jsonify, session
-from models import db, Session, Saved, User
+from models import db, Session, User, Agenda
 from forms import SignupForm, LoginForm
 from passlib.hash import sha256_crypt
 
@@ -56,7 +56,7 @@ def signup():
 			flash('The username already exists. Please pick another one.')
 			return redirect(url_for('signup'))
 		else:
-			user = User(username=username, password=sha256_crypt.hash(password))
+			user = User(username=username, password=sha256_crypt.hash(password), agendas=[])
 			db.session.add(user)
 			db.session.commit()
 			flash('Congratulations, you are now a registered user!')
