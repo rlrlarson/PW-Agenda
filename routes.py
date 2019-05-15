@@ -17,6 +17,9 @@ app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://localhost/pwagenda'
 db.init_app(app)
 app.secret_key = "pwagenda"
 
+# global variable for grouped sessions
+grouped_sessions = []
+
 # index route
 @app.route('/')
 @app.route('/index')
@@ -25,12 +28,32 @@ def index():
 
 	# parse out all sets of sessions for each day, for each time
 
-	first_sessions_set = Session.query.filter_by(start_time='2019-06-02 08:30:00-04:00').all()
+	all_sessions = Session.query.order_by(Session.session_id).all()
+
+
+	timeslot = all_sessions[0].start_time
+	group = []
+
+	# for item in all_sessions:
+	# 	print item.start_time
+
+	for item in all_sessions:
+		if timeslot == item.start_time:
+			group.append(item)
+		else:
+			timeslot = item.start_time
+			grouped_sessions.append(group)
+			group = []
+			group.append(item)
+
+	print grouped_sessions
+		
+
  	if 'username' in session:
 		session_user = User.query.filter_by(username=session['username']).first()
-		return render_template('index.html', title='All Sessions', username=session_user.username, sessions=sessions, firstgroup=first_sessions_set)
+		return render_template('index.html', title='All Sessions', username=session_user.username, grouped_sessions=grouped_sessions)
 	else:
-		return render_template('index.html', title='All Sessions', sessions=sessions)
+		return render_template('index.html', title='All Sessions', sessions=sessions, grouped_sessions=grouped_sessions)
 
 @app.route('/save/<session_id>', methods=['POST'])
 def save(session_id):
@@ -90,10 +113,11 @@ def logout():
 	session.clear()
 	return redirect(url_for('index'))
 
-
+# create agenda route
+@app.route('/agenda', methods=['POST'])
 def agenda():
-	agenda = Saved.query.all()
-	return render_template('agenda.html', agenda=agenda)
+#	agenda = Saved.query.all()
+	return render_template('agenda.html', grouped_sessions=grouped_sessions)
 
 
 if __name__ == "__main__":

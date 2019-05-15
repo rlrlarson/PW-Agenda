@@ -1,0 +1,103 @@
+{% extends "index.html" %}
+{% block content %}
+
+<head>
+  <link rel="stylesheet" href="../static/css/main.css">
+  <script src="static/js/jquery.js"></script>
+  <script src="static/js/FileSaver.js"></script> 
+  <script src="static/js/ics.js"></script>
+
+  <script>
+    
+    $(function() {
+      $('.session-radio').click(function () {
+        /*
+        var radioGroupName = $(this).attr('name');
+        console.log(radioGroupName);
+        */
+        $(this).children('input').prop('checked', true);
+        $('input:not(:checked)').parent().removeClass("radio-selected");
+        $('input:checked').parent().addClass("radio-selected");
+      });
+      
+      $('.session-content').click(function(){
+        $('.peek-panel').animate({right:'0px'},250);
+      });
+      
+      $('.peek-panel').click(function(){
+        $(this).animate({right:'-336px'},200);
+      })
+      
+      $('.clear-selection').click(function(){ 
+        var radioGroupName = $(this).attr('name');
+        $('input[name=' + radioGroupName + ']').prop('checked',false);
+        $('input:not(:checked)').parent().removeClass("radio-selected");
+      })
+
+    });
+    
+  </script>
+
+
+
+</head>
+
+<section class="content-section">
+      <div class="container text-center">
+
+         <div class="col-lg-5 mx-auto">
+            <h2>Create your agenda!</h2>
+            <p class="lead mb-3">Select a name and sessions.</p>
+
+			<form>
+				Agenda name
+				<input type="text" name="agendaname"><br>
+			</form>
+
+			 <span class="agenda-day">
+      			Sunday, June 2
+    		</span>
+    
+		    {% for group in grouped_sessions %}
+		    
+		    <div class="time-slot-container">
+		      <div class="time-display">
+		        {{ group[0].start_time }} &ndash; {{ group[0].end_time }}
+		        <div class="clear-selection" name="session1">Clear</div>
+		      </div>
+		      
+		      <div class="flex-container">
+
+		      {% for session in group %}
+
+		        <div class="session-card flex-container-nw">
+		          
+		          <div class="session-radio">
+		              <input type="radio" name="session1"/>
+		          </div>
+
+		          <div class="session-content">
+		            <span class="session-type {{ session.type_nospaces }}"></span>
+		            <span class="title">
+		              {{ session.title }}
+		            </span>
+		            <span class="description">
+		              {{ session.location }}
+		            </span>
+		          </div>
+
+
+		        </div>
+
+		      {% endfor %}
+
+		      </div>
+		      
+		    </div>
+
+		    {% endfor %}
+
+        </div>
+      </div>
+  </section>
+ {% endblock %}

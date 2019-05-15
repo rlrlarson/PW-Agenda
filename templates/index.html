@@ -55,6 +55,11 @@
         <button type="submit" class="btn btn-warning"> Log out </button>
       </form>
 
+      <!-- Create agenda button -->
+      <form action="/agenda" method="POST">
+        <button type="submit" class="btn btn-warning"> Create agenda </button>
+      </form>
+
     </div>
    
     <!-- else  -->
@@ -86,20 +91,20 @@
     <span class="agenda-day">
       Sunday, June 2
     </span>
-
-    {% set start_time = '2019-06-02 08:30:00-04:00' %}
-
     
-    {% for session in sessions %}
+    {% for group in grouped_sessions %}
 
     
     <div class="time-slot-container">
       <div class="time-display">
-        8:30 &ndash; 9:15am
+        {{ group[0].start_time }} &ndash; {{ group[0].end_time }}
         <div class="clear-selection" name="session1">Clear</div>
       </div>
       
       <div class="flex-container">
+
+      {% for session in group %}
+
         <div class="session-card flex-container-nw">
           
           <div class="session-radio">
@@ -115,10 +120,14 @@
               {{ session.location }}
             </span>
           </div>
+
+
         </div>
 
+      {% endfor %}
 
       </div>
+      
     </div>
 
     {% endfor %}
