@@ -117,6 +117,8 @@ def logout():
 @app.route('/agenda', methods=['POST'])
 def agenda():
 #	agenda = Saved.query.all()
+	# agenda_name = request['agendaname']
+	# print agenda_name
 	return render_template('agenda.html', grouped_sessions=grouped_sessions)
 
 

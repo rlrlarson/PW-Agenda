@@ -39,9 +39,14 @@
   </script>
 
   <script type="text/javascript">
+
   	function createAgenda() {
-  		selected_sessions = document.getElementsByClassName("radio-selected");
-  		console.log(selected_sessions);
+  		var selected_sessions = document.getElementsByClassName("radio-selected");
+  		selected_sessions = Array.from(selected_sessions)
+
+  		const selected_sessions_ids = selected_sessions.map(x => x.parentElement.id);
+
+  		console.log(selected_sessions_ids);
   	}
 
   </script>
@@ -79,7 +84,7 @@
 
       {% for session in group %}
 
-        <div class="session-card flex-container-nw">
+        <div class="session-card flex-container-nw" id="{{ session.session_id }}">
           
           <div class="session-radio">
               <input type="radio" name="{{ grouploop.index }}"/>
@@ -92,7 +97,6 @@
             </span>
             <span class="description">
               {{ session.location }}
-              {{ grouploop.index }}
             </span>
           </div>
 
